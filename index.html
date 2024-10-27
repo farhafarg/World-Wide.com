@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>WORLD WIDE</title>
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="bx bx-menu"></div>
+        <a href="#" class="logo"><span>W</span>ORLD<span>W</span>WIDE</a>
+        <ul class="navbar nonee">
+            <li><a href="#Home" class="active">Home</a></li>
+            <li><a href="#Book">Book</a></li>
+            <li><a href="#Packages">Packages</a></li>
+            <li><a href="#Services">Services</a></li>                
+            <li><a href="#Gallary">Gallary</a></li>
+            <li><a href="#Review">Review</a></li>
+            <li><a href="#Contant">Contant</a></li>
+        </ul>
+        <div class="icon">
+            <i class='bx bx-search' id="searchbtn"></i>
+            <i class='bx bxs-user'  id="userform"></i>
+            <i class='bx bx-moon mode' id="farha"></i>
+        </div>
+        <form class="searchfrom activee">
+            <input class="none" type="search" id="search-bar" placeholder="What You Looking For...">          
+            <label for="search-bar" class="bx bx-search none" id="iconLabel"></label>       
+        </form>
+    </header>
+    <div class="loginform shew" id="loginform">
+        <i class='bx bx-x' id="formclose"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter Your Email">
+            <input type="password" class="box"  placeholder="Enter Your password">
+            <input type="submit" class="box btn" value="login Now">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>Forget password ? <a href="">Click Here</a></p>
+            <p>Don't Have An Account ? <a href="">Sign In</a></p>
+        </form>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <!--section 1 as a slider -->
+    <section class="home" id="Home">
+        <div class="content" data-aos="fade-down">
+            <h3>World Wide Make Travel Easy</h3>
+            <p>Discover New Places With Us, Adventure Awaits</p>
+            <a href="#" class="btn">Discover More</a>
+        </div>
+        <div class="controls">
+            <span class="video-control blue" data-src="Images/vid-1.mp4"></span>
+            <span class="video-control" data-src="Images/vid-3.mp4"></span>
+            <span class="video-control" data-src="Images/vid-4.mp4"></span>
+            <span class="video-control" data-src="Images/vid-5.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="Images/vid-1.mp4" loop autoplay muted id="vedio-slider"></video>
+            <!-- <video src="Images/vid-3.mp4" loop autoplay muted></video>
+            <video src="Images/vid-4.mp4" loop autoplay muted></video>
+            <video src="Images/vid-5.mp4" loop autoplay muted></video> -->
+        </div>
+    </section>
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <section class="book" id="Book">
+        <h1 class="heading" data-aos="fade-down">
+            <span>B</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <span>N</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+        <div class="row">
+            <div class="image" data-aos="fade-down-right">
+                <img src="Images/book-img.svg" alt="">
+            </div>
+            <form action=""  data-aos="fade-left">
+                <div class="inputdiv">
+                    <h3>Where To Go</h3>
+                    <input type="text" placeholder="Place Name">
+                </div>
+                <div class="inputdiv">
+                    <h3>How Many</h3>
+                    <input type="text" placeholder="Place Name">
+                </div>
+                <div class="inputdiv">
+                    <h3>Arrival</h3>
+                    <input type="text" placeholder="Place Name">
+                </div>
+                <div class="inputdiv">
+                    <h3>Leaving</h3>
+                    <input type="text" placeholder="Place Name">
+                </div>
+                <input type="submit" class="box btn" value="Book Now">
+            </form>
+        </div>
+    </section>
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <section class="packages" id="Packages">
+        <h1 class="heading" data-aos="fade-down">
+            <span>P</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="container">
+            <div class="box">
+                <img src="Images/p-1.jpg" alt="">
+                <div class="contant">
+                    <h3><i class='bx bxs-map'></i>&nbsp;Korea</h3>
+                    <p>Lorem, ipsum dolor adipisicing elit. Velit suscipit quasi dolore nam neque.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="price">
+                        90.00$
+                        <span>120.00$</span>
+                    </div>
+                    <a href="#" class="btn">Check Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/p-2.jpg" alt="">
+                <div class="contant">
+                    <h3><i class='bx bxs-map'></i>&nbsp;Egypt</h3>
+                    <p>Lorem, ipsum dolor adipisicing elit. Velit suscipit quasi dolore nam neque.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="price">
+                        90.00$
+                        <span>120.00$</span>
+                    </div>
+                    <a href="#" class="btn">Check Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/p-3.jpg" alt="">
+                <div class="contant">
+                    <h3><i class='bx bxs-map'></i>&nbsp;Turkia</h3>
+                    <p>Lorem, ipsum dolor adipisicing elit. Velit suscipit quasi dolore nam neque.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="price">
+                        90.00$
+                        <span>120.00$</span>
+                    </div>
+                    <a href="#" class="btn">Check Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/p-4.jpg" alt="">
+                <div class="contant">
+                    <h3><i class='bx bxs-map'></i>&nbsp;USA</h3>
+                    <p>Lorem, ipsum dolor adipisicing elit. Velit suscipit quasi dolore nam neque.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="price">
+                        90.00$
+                        <span>120.00$</span>
+                    </div>
+                    <a href="#" class="btn">Check Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/p-5.jpg" alt="">
+                <div class="contant">
+                    <h3><i class='bx bxs-map'></i>&nbsp;Hawaii</h3>
+                    <p>Lorem, ipsum dolor adipisicing elit. Velit suscipit quasi dolore nam neque.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="price">
+                        90.00$
+                        <span>120.00$</span>
+                    </div>
+                    <a href="#" class="btn">Check Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/p-6.jpg" alt="">
+                <div class="contant">
+                    <h3><i class='bx bxs-map'></i>&nbsp;Japan</h3>
+                    <p>Lorem, ipsum dolor adipisicing elit. Velit suscipit quasi dolore nam neque.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="price">
+                        90.00$
+                        <span>120.00$</span>
+                    </div>
+                    <a href="#" class="btn">Check Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/p-1.jpg" alt="">
+                <div class="contant">
+                    <h3><i class='bx bxs-map'></i>&nbsp;Italy</h3>
+                    <p>Lorem, ipsum dolor adipisicing elit. Velit suscipit quasi dolore nam neque.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="price">
+                        90.00$
+                        <span>120.00$</span>
+                    </div>
+                    <a href="#" class="btn">Check Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/p-3.jpg" alt="">
+                <div class="contant">
+                    <h3><i class='bx bxs-map'></i>&nbsp;India</h3>
+                    <p>Lorem, ipsum dolor adipisicing elit. Velit suscipit quasi dolore nam neque.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="price">
+                        90.00$
+                        <span>120.00$</span>
+                    </div>
+                    <a href="#" class="btn">Check Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/p-2.jpg" alt="">
+                <div class="contant">
+                    <h3><i class='bx bxs-map'></i>&nbsp;Palestine</h3>
+                    <p>Lorem, ipsum dolor adipisicing elit. Velit suscipit quasi dolore nam neque.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="price">
+                        90.00$
+                        <span>120.00$</span>
+                    </div>
+                    <a href="#" class="btn">Check Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <section class="services" id="Services">
+        <h1 class="heading" data-aos="fade-down">
+            <span>S</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="container">
+            <div class="box">
+                <i class='bx bxs-school'></i>
+                <h3>Affordable Hotel</h3>
+                <p>Lorem consequatur maxime officiis harum dolorum architecto voluptatum facere sequi, alias sed distinctio nam veniam nihil recusandae molestiae nobis laborum!</p>
+            </div>
+            <div class="box">
+                <i class='bx bx-restaurant'></i>
+                <h3>Drink And Food Restaurant</h3>
+                <p>Lorem consequatur maxime officiis harum dolorum architecto voluptatum facere sequi, alias sed distinctio nam veniam nihil recusandae molestiae nobis laborum!</p>
+            </div>
+            <div class="box">
+                <i class='bx bxs-megaphone'></i>
+                <h3>Saftey Advert</h3>
+                <p>Lorem consequatur maxime officiis harum dolorum architecto voluptatum facere sequi, alias sed distinctio nam veniam nihil recusandae molestiae nobis laborum!</p>
+            </div>
+            <div class="box">
+                <i class="bx bx-globe"></i>
+                <h3>Around The World</h3>
+                <p>Lorem consequatur maxime officiis harum dolorum architecto voluptatum facere sequi, alias sed distinctio nam veniam nihil recusandae molestiae nobis laborum!</p>
+            </div>
+            <div class="box">
+                <i class='bx bxs-plane bx-rotate-90'></i>
+                <h3>Travel Airport</h3>
+                <p>Lorem consequatur maxime officiis harum dolorum architecto voluptatum facere sequi, alias sed distinctio nam veniam nihil recusandae molestiae nobis laborum!</p>
+            </div>
+            <div class="box">
+                <i class='bx bx-walk'></i>
+                <h3>Adventure Hiking</h3>
+                <p>Lorem consequatur maxime officiis harum dolorum architecto voluptatum facere sequi, alias sed distinctio nam veniam nihil recusandae molestiae nobis laborum!</p>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <section class="gallary" id="Gallary">
+        <h1 class="heading" data-aos="fade-down">
+            <span>G</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>a</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+        <div class="container">
+            <div class="box">
+                <img src="Images/g-1.jpg" alt="">
+                <div class="contant">
+                    <h3>Amazing Place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga?</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/g-2.jpg" alt="">
+                <div class="contant">
+                    <h3>Amazing Place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga?</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/g-3.jpg" alt="">
+                <div class="contant">
+                    <h3>Amazing Place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga?</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/g-4.jpg" alt="">
+                <div class="contant">
+                    <h3>Amazing Place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga?</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/g-5.jpg" alt="">
+                <div class="contant">
+                    <h3>Amazing Place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga?</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/g-6.jpg" alt="">
+                <div class="contant">
+                    <h3>Amazing Place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga?</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/g-7.jpg" alt="">
+                <div class="contant">
+                    <h3>Amazing Place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga?</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/g-8.jpg" alt="">
+                <div class="contant">
+                    <h3>Amazing Place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga?</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Images/g-9.jpg" alt="">
+                <div class="contant">
+                    <h3>Amazing Place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga?</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <section class="review" id="Review">
+        <h1 class="heading" data-aos="fade-down">
+            <span>R</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="Images/pic1.jpg" alt="">
+                        <div class="contant">
+                            <h3>Jack Moe</h3>
+                            <p>Lorem ipsum dolor sit amet,Asperiores totam, voluptatem non debitis illum tenetur cum quasi corporis veritatis.</p>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box"> 
+                        <img src="Images/pic2.jpg" alt="">
+                        <div class="contant">
+                            <h3>Maged Farg</h3>
+                            <p>Lorem ipsum dolor sit amet, Asperiores totam, voluptatem non debitis illum tenetur cum quasi corporis veritatis.</p>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="Images/pic4.jpg" alt="">
+                        <div class="contant">
+                            <h3>Anna John</h3>
+                            <p>Lorem ipsum dolor sit amet, Asperiores totam, voluptatem non debitis illum tenetur cum quasi corporis veritatis.</p>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="Images/pic3.jpg" alt="">
+                        <div class="contant">
+                            <h3>Deived smith</h3>
+                            <p>Lorem ipsum dolor sit amet, Asperiores totam, voluptatem non debitis illum tenetur cum quasi corporis veritatis.</p>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">    
+                        <img src="Images/pic4.jpg" alt="">
+                        <div class="contant">
+                            <h3>Tom Adeson</h3>
+                            <p>Lorem ipsum dolor sit amet, Asperiores totam, voluptatem non debitis illum tenetur cum quasi corporis veritatis.</p>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <section class="contant" id="Contant">
+        <h1 class="heading" data-aos="fade-down">
+            <span>C</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>n</span>
+            <span>t</span>
+        </h1>
+        <div class="row">
+            <div class="image" data-aos="fade-down-right">
+                <img src="Images/contact-img.svg" alt="">
+            </div>
+            <form action="" data-aos="fade-down-left">
+                <div class="divbox">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="divbox">
+                    <input type="number" placeholder="Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                    <textarea name="" id="" placeholder="Message" cols="30" rows="10"></textarea>
+                <input type="submit" class="box btn" value="Send A Message">
+            </form>
+        </div>
+    </section>
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <section class="footer" id="Footer">
+        <div class="boxcontainer">
+            <div class="box" data-aos="fade-right">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquid voluptatem culpa sint temporibus dolor libero perferendis! Nemo ea ducimus explicabo nulla? Ei magni laudantium harume reprehenderit vel ex iusto?!</p>
+            </div>
+            <div class="box" data-aos="fade-down">
+                <h3>Barnch</h3>
+                <a href="#">Egypt</a>
+                <a href="#">London</a>
+                <a href="#">USA</a>
+                <a href="#">Italy</a>
+                <a href="#">Palestine</a>
+                <a href="#">Japan</a>
+            </div>
+            <div class="box" data-aos="fade-down">
+                <h3>Quick Links</h3>
+                <a href="#Home">Home</a>
+                <a href="#Book">Book</a>
+                <a href="#Packages">Packages</a>
+                <a href="#Services">Services</a>
+                <a href="#Gallary">Gallary</a>
+                <a href="#Review">Review</a>
+                <a href="#Contant">Contant</a>
+            </div>
+            <div class="box" data-aos="fade-left">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Linked In</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Created By &#169;FarحaFarg All Right Reserved.
+            </p>
+        </div>
+    </section>
+    <!-- ------------------------------------------------------------------------------------------ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="travel.js"></script>
+</body>
+</html>

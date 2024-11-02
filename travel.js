@@ -106,7 +106,24 @@ mode.onclick = () => {
     console.log("dhhdh");
 }
 
+let valueDispleys = document.querySelectorAll(".num");
+let intersal = 4000 ;
 
+valueDispleys.forEach((valueDisplay) =>{
+    let stratValue = 0;
+    let endValue = parseInt(valueDisplay.getAttribute
+        ("data-val"));
+    // console.log(endvalue);
+    let duration = Math.floor(intersal / endValue);
+    let counter = setInterval(function(){
+        stratValue += 1 ;
+        valueDisplay.textContent = stratValue ;
+        if( stratValue==endValue ) {
+            clearInterval(counter);
+        }
+        
+    }, duration);
+});
 
 
 

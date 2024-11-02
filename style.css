@@ -47,7 +47,6 @@
     background: var(--blue-color);
     border-radius: 50rem;
 }
-
 html{
     font-size: 62%;
     overflow-x: hidden;
@@ -55,6 +54,10 @@ html{
 }
 body{
     background: var(--bg-color);
+    overflow-x: hidden;
+}
+section{
+    padding: 2rem 7%;
 }
 header{
     position: fixed;
@@ -316,9 +319,7 @@ header .searchfrom label:hover{
         display: none;
     }
 }
-section{
-    padding: 2rem 7%;
-}
+
 .home{
     min-height: 100vh;
     display: flex;
@@ -499,6 +500,11 @@ section{
     font-size: 4.5rem;
     color: var(--blue-color);
 }
+.services .container .box span{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--blue-color);
+}
 .services .container .box h3{
     font-size: 2.5rem;
     color: var(--text1-color);
@@ -671,6 +677,25 @@ section{
     color: #868a92;
 }
 @media (max-width:420px){
+    /* section{
+        padding: 2rem 8%;
+    } */
+    .header{
+        overflow-y: hidden;
+        width: 100%;
+        /* padding: 2rem 0%; */
+    }
+    header .logo{
+        font-size: 2.1rem;
+    }
+    .icon i{
+        font-size: 15px;
+    }
+    .mode{
+        height: 25px;
+        width: 25px;
+        padding: 3px;
+    }
     .heading{
         text-align: center;
         padding: 2rem 0;
